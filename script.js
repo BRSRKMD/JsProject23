@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
         showModal(`Рівень ${level} пройден! Переходимо на наступний рівень.`);
         nextLevelButton.onclick = nextLevel;
       } else {
-        showModal("Вітаємо! Ви пройшли всі рівні гри! 🎉", false); // Кнопку скрываем
-        nextLevelButton.onclick = null; // Убираем обработчик, чтобы не было ошибок
+        showModal("Вітаємо! Ви пройшли всі рівні гри! 🎉", false); 
+        nextLevelButton.onclick = null; 
       }
     } else {
       showModal(

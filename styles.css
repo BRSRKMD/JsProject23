@@ -29,7 +29,7 @@
   button {
     font-size: 1.5rem;
     padding: 15px 30px;
-    background-color: #2d5e38;
+    background-color: #652e6b; 
     color: white;
     border: none;
     border-radius: 10px;
@@ -38,7 +38,7 @@
   }
   
   button:hover {
-    background-color: #218838;
+    background-color: #868821;
     transform: scale(1.05);
   }
   
@@ -102,9 +102,9 @@
       color: #530000;
     }
   }
-  /* Стили для модального окна */
+  
 .modal {
-  display: none; /* Скрыто по умолчанию */
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
