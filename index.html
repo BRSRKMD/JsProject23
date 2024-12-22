@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клікер</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Натискайте на кнопку!</h1>
+
+      <!-- Селектор уровня сложности -->
+      <label for="difficulty">Виберіть рівень складності:</label>
+      <select id="difficulty">
+        <option value="1">Легкий</option>
+        <option value="2">Середній</option>
+        <option value="3">Важкий</option>
+      </select>
+      <button id="startGame">Почати гру</button>
+
+      <!-- Игровые элементы -->
+      <button id="clickButton" style="display: none">Натисни мене!</button>
+      <p id="score" style="display: none">Очки: 0</p>
+      <p id="timer" style="display: none">Час: 30</p>
+      <p id="level" style="display: none">Рівень: 1</p>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p id="modalMessage"></p>
+        <button id="nextLevelButton">Далі</button>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
